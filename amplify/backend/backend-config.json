@@ -1,0 +1,43 @@
+{
+  "api": {
+    "apiae581965": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "amplifynextjsstarter14b27111"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "amplifynextjsstarter14b27111": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_amplifynextjsstarter14b27111_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifynextjsstarter14b27111"
+        }
+      ]
+    },
+    "AMPLIFY_function_amplifynextjsstarter14b27111_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifynextjsstarter14b27111"
+        }
+      ]
+    }
+  }
+}
