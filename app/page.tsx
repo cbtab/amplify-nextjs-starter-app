@@ -3,6 +3,7 @@ import styles from './page.module.css'
 
 export default function Home() {
   console.log(process.env.NODE_ENV)
+    console.log("hello")
   return (
     <main className={styles.main}>
       <div className={styles.description}>
